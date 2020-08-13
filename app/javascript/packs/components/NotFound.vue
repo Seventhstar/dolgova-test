@@ -2,8 +2,7 @@
   <v-card
     class="mx-auto mt-10" elevation="3"
     max-width="1200"
-    outlined
-  >
+    outlined>
     <div class="d-flex flex-no-wrap justify-space-between">
       <v-list-item three-line>
         <v-list-item-content>
