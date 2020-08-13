@@ -9,11 +9,11 @@ import Vue from 'vue'
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 import App from '../app.vue'
-import VueRouter from 'vue-router'
+// import VueRouter from 'vue-router'
 import router from "./router";
 
 Vue.use(Vuetify)
-Vue.use(VueRouter)
+// Vue.use(VueRouter)
 
 
 document.addEventListener('DOMContentLoaded', () => {
