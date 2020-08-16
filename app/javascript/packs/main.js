@@ -10,7 +10,7 @@ import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 import App from '../app.vue'
 // import VueRouter from 'vue-router'
-// import router from "./router";
+import router from "./router";
 
 Vue.use(Vuetify)
 // Vue.use(VueRouter)
@@ -19,12 +19,12 @@ Vue.use(Vuetify)
 document.addEventListener('DOMContentLoaded', () => {
   const app = new Vue({
     vuetify: new Vuetify(),
-    // router: router,
+    router: router,
     render: h => h(App)
   }).$mount()
   document.body.appendChild(app.$el)
 
-  console.log(app)
+  // console.log(app)
 })
 
 // The above code uses Vue without the compiler, which means you cannot
