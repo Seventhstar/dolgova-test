@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <v-app>
-<!--      <v-sheet-->
+      <v-sheet
 <!--        height="100%"-->
 <!--        class="overflow-hidden"-->
 <!--        style="position: relative;">-->
@@ -10,7 +10,7 @@
 <!--&lt;!&ndash;          <router-view></router-view>&ndash;&gt;-->
 <!--          <socials-menu></socials-menu>-->
 <!--        </v-main>-->
-<!--      </v-sheet>-->
+      </v-sheet>
 <!--      <WriteIn></WriteIn>-->
     </v-app>
   </div>
