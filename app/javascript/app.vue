@@ -2,13 +2,13 @@
   <div id="app">
     <v-app>
       <v-sheet
-<!--        height="100%"-->
-<!--        class="overflow-hidden"-->
-<!--        style="position: relative;">-->
+        height="100%"
+        class="overflow-hidden"
+        style="position: relative;">
 <!--&lt;!&ndash;        <TopMenu/>&ndash;&gt;-->
 <!--        <v-main>-->
 <!--&lt;!&ndash;          <router-view></router-view>&ndash;&gt;-->
-<!--          <socials-menu></socials-menu>-->
+          <socials-menu></socials-menu>
 <!--        </v-main>-->
       </v-sheet>
 <!--      <WriteIn></WriteIn>-->
