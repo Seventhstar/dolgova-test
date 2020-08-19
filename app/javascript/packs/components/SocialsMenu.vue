@@ -39,7 +39,6 @@
           {icon: 'telegram.png', label: 'Телеграм', link: ''},
           {icon: 'fb.png', label: 'facebook', link: ''},
           {icon: 'email.png', label: 'Написать письмо', link: 'mailto:seventhstar@mail.ru'},
-
         ]
       }
     },
