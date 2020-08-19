@@ -5,7 +5,7 @@
         height="100%"
         class="overflow-hidden"
         style="position: relative;">
-        <TopMenu/>
+<!--        <TopMenu/>-->
         <v-main>
 <!--          <router-view></router-view>-->
           <socials-menu></socials-menu>
