@@ -19,7 +19,7 @@
           <v-list-item-title bold>Направления:</v-list-item-title>
           <ul class="skills">
 
-            <li v-for="sk in skills" v-ripple="{ class: `error--text` }">
+            <li v-for="sk in skills" >
               {{sk}}
             </li>
           </ul>
