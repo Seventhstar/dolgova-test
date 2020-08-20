@@ -15,8 +15,20 @@
   export default {
     data: function () {
       return {
+        showWriteInDialog: false,
+        message: "Hello Vue!",
+        items: [
+          {title: 'Home', icon: 'mdi-home-city'},
+          {title: 'My Account', icon: 'mdi-account'},
+          {title: 'Users', icon: 'mdi-account-group-outline'},
+        ],
       };
     },
+    components: {
+      WriteIn: WriteIn,
+      'socials-menu': SocialsMenu,
+      'TopMenu': TopMenu,
+    }
   };
 </script>
 
