@@ -5,12 +5,21 @@
         height="100%"
         class="overflow-hidden"
         style="position: relative;">
+        <TopMenu/>
+<!--        <v-main>-->
+<!--&lt;!&ndash;          <router-view></router-view>&ndash;&gt;-->
+<!--          <socials-menu></socials-menu>-->
+<!--        </v-main>-->
       </v-sheet>
+
     </v-app>
   </div>
 </template>
 
 <script>
+  import TopMenu from "./packs/components/TopMenu.vue";
+  import SocialsMenu from "./packs/components/SocialsMenu.vue";
+  import WriteIn from "./packs/components/WriteIn";
 
   export default {
     data: function () {
